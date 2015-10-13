@@ -73,4 +73,14 @@ echo "$ time curl -o /dev/null -L https://github.com/krishardy/netspeedtest/raw/
 time curl -o /dev/null -L https://github.com/krishardy/netspeedtest/raw/master/1M.bin
 echo "---------------------------------------------------------------------"
 echo
+echo "/// 5M Response ///"
+echo "$ time curl -o /dev/null -L https://github.com/krishardy/netspeedtest/raw/master/5M.bin"
+time curl -o /dev/null -L https://github.com/krishardy/netspeedtest/raw/master/5M.bin
+echo "---------------------------------------------------------------------"
+echo
+echo "/// 10M Response ///"
+echo "$ time curl -o /dev/null -L https://github.com/krishardy/netspeedtest/raw/master/10M.bin"
+time curl -o /dev/null -L https://github.com/krishardy/netspeedtest/raw/master/10M.bin
+echo "---------------------------------------------------------------------"
+echo
 echo "Test complete."
